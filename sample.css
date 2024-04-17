@@ -1,0 +1,77 @@
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  /* Hover state */
+  .btn:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Active state */
+  .btn:active {
+    border-color: #2980b9;
+    background-color: #2980b9;
+    color: #fff;
+  }
+
+  /* Apply styles to the heading */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff; /* Text color */
+    background-image: linear-gradient(to right, #3498db, #2980b9); /* Gradient background */
+    padding: 20px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+  }
+  
+  /* Optional: Add hover effect */
+  h1:hover {
+    background-image: linear-gradient(to right, #2980b9, #3498db); /* Adjust gradient colors on hover */
+  }
+  
+  /* Apply styles to the input field */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 50%; /* Make the input field take the full width */
+    padding: 10px; /* Add padding for better appearance */
+    margin: 8px 0; /* Add margin for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 2px solid #3498db; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  /* Style the input field on focus */
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #2980b9; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Add a subtle box shadow on focus */
+  }
+  
+  /* Apply styles to unordered list */
+ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Apply styles to list items in unordered list */
+  ul li {
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 5px; /* Add margin between list items */
+    background-color: #f2f2f2; /* Background color for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+  }
+  
